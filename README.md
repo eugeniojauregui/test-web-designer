@@ -15,7 +15,7 @@
 ## Instrucciones
 * Clonar el repositorio
 * Leer las instrucciones en el documento .docx, en este se indicará el perfil del cargo, requitos mínimos y descripción en detalle de la prueba.
-* Hacer los commits debidos de los cambios realizados, tener mínimo 20 commits pues se revisarán cada uno para ver su progreso.
+* Hacer los commits debidos de los cambios realizados, tener mínimo 20 commits pues se revisarán cada uno para ver su progreso. El primer commit debe empezar con la palabra `commit inicial` y el último con la palabra `commit final`.
 * Al finalizar la prueba o llegar al tiempo límite hacer un pull request al repositorio para dar como finalizada su prueba.
 * En el transcurso de la semana nos pondremos en contanto.
 
