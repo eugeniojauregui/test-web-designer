@@ -65,6 +65,8 @@ table {
 }
 i {
     font-family: 'Font-Awesome';
+    font-size: 20px;
+    display: block;
 }
 /* Custom Styles */
 header {
@@ -149,7 +151,7 @@ nav ul li a:hover, nav ul li a.active {
 
 .hero .right-block {
     padding: 50px;
-    width: 40%;
+    width: 32%;
     display: flex;
     flex-wrap: wrap;
 }
