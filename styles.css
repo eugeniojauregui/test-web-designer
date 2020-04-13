@@ -111,3 +111,68 @@ nav ul li a:hover, nav ul li a.active {
     color: #fff;
     border-radius: 6px;
 }
+.hero .container {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0px #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero .left-block {
+    padding: 50px;
+    max-width: 50%;
+}
+
+.hero .left-block h2 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #444;
+}
+
+.hero .left-block p {
+    font-size: 36px;
+    color: #444;
+    padding: 25px 0;
+    line-height: 44px;
+}
+
+.hero .right-block {
+    padding: 50px;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-weight: 800;
+    width: 100%;
+    display: block;
+    font-size: 28px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 25px;
+    transition: ease all 0.2s;
+}
+
+.btn.blue {
+    background: #1591c4;
+    color: #fff;
+}
+
+.btn a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn.gray {
+    background: #f2f2f2;
+    color: #444;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
