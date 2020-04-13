@@ -254,7 +254,7 @@ h4 {
 }
 
 .card li .card-pict {
-    min-height: 300px;
+    min-height: 270px;
     background: #929292;
     display: flex;
     justify-content: flex-start;
@@ -283,6 +283,7 @@ h4 {
     top: -5px;
     left: -5px;
     width: 102%;
+    z-index: 0;
 }
 
 aside {
@@ -316,6 +317,7 @@ ul.color-blocks li {
     background: #eee;
     margin-bottom: 20px;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 ul.color-blocks li.brown {
