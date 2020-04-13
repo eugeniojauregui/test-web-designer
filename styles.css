@@ -113,8 +113,8 @@ nav ul li a:hover, nav ul li a.active {
 }
 .hero .container {
     background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 4px 0px #999;
+    border-radius: 6px;
+    box-shadow: 0px 4px 2px 0px #ccc;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -126,7 +126,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .hero .left-block h2 {
-    font-size: 46px;
+    font-size: 52px;
     font-weight: 800;
     color: #444;
 }
@@ -134,8 +134,8 @@ nav ul li a:hover, nav ul li a.active {
 .hero .left-block p {
     font-size: 36px;
     color: #444;
-    padding: 25px 0;
     line-height: 44px;
+    margin: 25px 0 0;
 }
 
 .hero .right-block {
@@ -175,4 +175,52 @@ nav ul li a:hover, nav ul li a.active {
 
 .btn:hover {
     transform: scale(1.1);
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card li {
+    width: 30%;
+    border-radius: 6px;
+    box-shadow: 0px 4px 2px 0px #ccc;
+    overflow: hidden;
+}
+
+.cards {
+    padding: 50px 0;
+}
+
+.card li .card-pict {
+    min-height: 300px;
+    background: #929292;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 10px;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0px 2px 2px #444;
+    position: relative;
+}
+
+.card li .card-desc {
+    padding: 10px;
+    min-height: 175px;
+    line-height: 28px;
+}
+
+h4 {
+    color: #444;
+    font-weight: 800;
+    display: block;
+}
+
+.card-pict img {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 102%;
 }
